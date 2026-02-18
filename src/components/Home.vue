@@ -26,30 +26,30 @@
         <img
           class="image"
           :src="currentSlide.src"
-          :alt="currentSlide.title || 'Martina Hopfner work'"
+          :alt="currentSlide.alt || currentSlide.title || 'Martina Hopfner work'"
           @click="nextSlide"
         />
 
+        <!-- Overlay lives outside image to the right -->
         <div class="overlay">
-  <button
-    class="plus"
-    type="button"
-    @click.stop="toggleInfo"
-    :aria-expanded="showInfo ? 'true' : 'false'"
-    aria-label="Toggle info"
-  >
-    {{ showInfo ? '−' : '+' }}
-  </button>
+          <button
+            class="plus"
+            type="button"
+            @click.stop="toggleInfo"
+            :aria-expanded="showInfo ? 'true' : 'false'"
+            aria-label="Toggle info"
+          >
+            {{ showInfo ? '−' : '+' }}
+          </button>
 
-  <div v-if="showInfo" class="legend">
-    <p class="title">{{ currentSlide.title }}</p>
-    <p class="spacer-sm"></p>
-    <p v-for="(line, i) in currentSlide.legend" :key="i">
-      {{ line }}
-    </p>
-  </div>
-</div>
-
+          <div v-if="showInfo" class="legend">
+            <p v-if="currentSlide.title" class="title">{{ currentSlide.title }}</p>
+            <p class="spacer-sm" aria-hidden="true"></p>
+            <p v-for="(line, i) in currentSlide.legend" :key="i">
+              {{ line }}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -65,26 +65,24 @@ const showInfo = ref(false)
 const currentSlide = computed(() => slides[index.value])
 
 function nextSlide() {
-  showInfo.value = false   // close legend
+  // clicking the image closes legend and advances
+  showInfo.value = false
   index.value = (index.value + 1) % slides.length
 }
-
 
 function toggleInfo() {
   showInfo.value = !showInfo.value
 }
 
+// per-slide fine tuning (viewport percent offsets)
 const wrapStyle = computed(() => {
   const x = currentSlide.value.offset?.x ?? 0
   const y = currentSlide.value.offset?.y ?? 0
-
   return {
     transform: `translate(calc(-50% + ${x}vw), calc(-50% + ${y}vh))`,
   }
 })
-
 </script>
-
 
 <style scoped>
 .layout {
@@ -92,6 +90,7 @@ const wrapStyle = computed(() => {
   grid-template-columns: 300px 1fr;
   height: 100vh;
   width: 100vw;
+  overflow: hidden; /* no scroll */
 }
 
 /* LEFT */
@@ -103,14 +102,27 @@ const wrapStyle = computed(() => {
   line-height: 1.35;
   color: rgb(0, 0, 0);
 }
-.left p { margin: 0; }
-.left a { color: rgb(0, 0, 0); text-decoration: none; }
-.spacer { height: 20px; }
+
+.left p {
+  margin: 0;
+}
+
+.left a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.spacer {
+  height: 20px;
+}
 
 /* STAGE */
-.stage { position: relative; }
+.stage {
+  position: relative;
+  overflow: hidden;
+}
 
-/* image wrapper centred to full viewport */
+/* image wrapper centred to full viewport (fine tuned via wrapStyle) */
 .image-wrap {
   position: fixed;
   left: 50%;
@@ -118,23 +130,35 @@ const wrapStyle = computed(() => {
   display: inline-block;
 }
 
-
 /* image */
 .image {
   display: block;
-  max-width: 60vw;
-  max-height: 85vh;
+  max-width: 60vw;   /* adjust image width here */
+  max-height: 85vh;  /* adjust image height here */
   object-fit: contain;
   cursor: pointer;
+
+  position: relative;
+  z-index: 1;
 }
 
-/* + pinned to image top-right corner */
-.plus {
+/* Overlay sits OUTSIDE the image to the right */
+.overlay {
   position: absolute;
   top: 0;
-  right: 0;
-  transform: translate(28px, 0);
 
+  left: 100%;         /* start at the right edge of the image */
+  margin-left: 28px;  /* distance from image edge */
+
+  z-index: 5;
+  text-align: left;
+
+  /* CONTROL VERTICAL SPACE BETWEEN + AND LEGEND HERE */
+  --plus-gap: 28px;
+}
+
+/* + */
+.plus {
   border: 0;
   background: transparent;
   padding: 0;
@@ -142,53 +166,27 @@ const wrapStyle = computed(() => {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1;
+
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
 
-
-/* spacer block "after +" (placeholder for future mobile behaviour) */
-.plus-spacer {
-  position: absolute;
-  top: 22px;
-  right: 0;
-  transform: translate(28px, 0);
-  height: 36px; /* adjust later */
-  width: 1px;
-}
-
-/*
-  LEGEND opens DOWNWARDS from the + point,
-  and starts to the RIGHT of the image edge.
-*/
+/* legend opens downward under + */
 .legend {
-  position: absolute;
-
-  /* anchor at image top-right corner */
-  top: 0;
-  right: 0;
-
-  /* move down a bit under the + */
-  margin-top: 28px;
-
-  /* now: start to the RIGHT of the image edge */
-  left: 100%;
-  right: auto;
-
-  /* spacing between image edge and legend */
-  margin-left: 28px;
-
+  margin-top: var(--plus-gap);
   width: 240px;
 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.4;
   color: rgb(0, 0, 0);
-  text-align: left;
 }
 
+.legend p {
+  margin: 0;
+}
 
-
-.legend p { margin: 0; }
-.spacer-sm { height: 12px; }
+.spacer-sm {
+  height: 12px;
+}
 </style>
