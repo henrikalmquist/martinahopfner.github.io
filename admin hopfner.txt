@@ -1,0 +1,27 @@
+/ commit push in terminal
+git add .
+git commit -m "Add GitHub Pages workflow"
+git push
+
+/ preview local
+npm dev
+
+/ excel to data
+npm run gen:data
+
+
+
+
+/ dev
+- mobile screen
+- big screen (maximum size..)
+- font
+- spaces and sizes
+- click on martina for info
+- content martina
+
+/host
+strato
+cloudflare
+github
+

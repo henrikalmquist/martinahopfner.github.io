@@ -20,6 +20,6 @@ export const slides = [
       'Photo: Denny Sachtleben',
       'Set: Cathrin Sonntag',
     ],
-    offset: { x: 0, y: 5 }, // 5% down
+    offset: { x: -10, y: -5 }, // 5% down
   },
 ]

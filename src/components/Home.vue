@@ -57,7 +57,7 @@
 
 <script setup>
 import { computed, ref } from 'vue'
-import { slides } from '../data.js'
+import slides from "../data.json"
 
 const index = ref(0)
 const showInfo = ref(false)
@@ -79,7 +79,7 @@ const wrapStyle = computed(() => {
   const x = currentSlide.value.offset?.x ?? 0
   const y = currentSlide.value.offset?.y ?? 0
   return {
-    transform: `translate(calc(-50% + ${x}vw), calc(-50% + ${y}vh))`,
+    transform: `translate(calc(-50% + ${x}vw), calc(-50% + ${-y}vh))`,
   }
 })
 </script>
