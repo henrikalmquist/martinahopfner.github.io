@@ -3,6 +3,8 @@ git add .
 git commit -m "Add GitHub Pages workflow"
 git push
 
+no need for build/deploy
+
 / preview local
 npm dev
 
