@@ -1,31 +1,683 @@
 [
   {
-    "src": "/hopfner-01.png",
-    "alt": "Fer",
-    "title": "Fer",
+    "src": "/Fer_01.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
-      "Make up: Lee Hyangsoon",
+      "Make-up: Lee Hyangsoon",
       "Styling: Kalle Hildinger",
       "Model: Fernanda Zilio | Louisa Models"
     ],
     "offset": {
       "x": 0,
       "y": 0
-    }
+    },
+    "mobile": 1
   },
   {
-    "src": "/hopfner-02.png",
-    "alt": "Silhouette and Backbone",
-    "title": "Silhouette and Backbone",
+    "src": "/Fer_02.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
     "legend": [
       "Photo: Denny Sachtleben",
-      "Set: Cathrin Sonntag"
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
     ],
     "offset": {
       "x": 0,
-      "y": -5
-    }
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_03.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_04.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_05.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_06.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_07.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_08.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Fer_09.jpg",
+    "alt": "Fer - A Beauty Story",
+    "title": "Fer - A Beauty Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair: Masayuki Yuasa",
+      "Make-up: Lee Hyangsoon",
+      "Styling: Kalle Hildinger",
+      "Model: Fernanda Zilio | Louisa Models"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Hair-Story_01.jpg",
+    "alt": "Hair Story",
+    "title": "Hair Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair Sculpting: Cathrin Sonntag",
+      "Model: Henrik Almquist"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Hair-Story_02.jpg",
+    "alt": "Hair Story",
+    "title": "Hair Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Prop Styling: Cathrin Sonntag",
+      "Model: Henrik Almquist"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 0
+  },
+  {
+    "src": "/Hair-Story_03.jpg",
+    "alt": "Hair Story",
+    "title": "Hair Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair Sculpting: Cathrin Sonntag",
+      "Model: Henrik Almquist"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Hair-Story_04.jpg",
+    "alt": "Hair Story",
+    "title": "Hair Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Hair Sculpting: Cathrin Sonntag",
+      "Model: Henrik Almquist"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Hair-Story_05.jpg",
+    "alt": "Hair Story",
+    "title": "Hair Story",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Prop Styling: Cathrin Sonntag",
+      "Model: Henrik Almquist"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 0
+  },
+  {
+    "src": "/Silhouette-and-backbone_01.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_02.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_03.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Set: Theresa Rohé"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_04.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_05.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_06.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_07.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_08.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_09.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_10.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_11.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_12.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_13.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_14.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 0
+  },
+  {
+    "src": "/Silhouette-and-backbone_15.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_16.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_17.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Set: Theresa Rohé"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_18.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Silhouette-and-backbone_19.jpg",
+    "alt": "Silhouette & Backbone",
+    "title": "Silhouette & Backbone",
+    "legend": [
+      "Photo: Kornelia Konieczka",
+      "Styling: Rhea Fey",
+      "H+M: Carolin Jarchow",
+      "Set: Theresa Rohé",
+      "Light: Nina Petrova",
+      "Model: Michelle Laff"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Skin-Vestige_01.jpg",
+    "alt": "Skin Vestige",
+    "title": "Skin Vestige",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Styling: Camille Franke",
+      "Set: Cathrin Sonntag",
+      "Model: Feng Liang Guo"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Skin-Vestige_02.jpg",
+    "alt": "Skin Vestige",
+    "title": "Skin Vestige",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Styling: Camille Franke",
+      "Set: Cathrin Sonntag",
+      "Model: Feng Liang Guo"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Skin-Vestige_03.jpg",
+    "alt": "Skin Vestige",
+    "title": "Skin Vestige",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Styling: Camille Franke",
+      "Set: Cathrin Sonntag",
+      "Model: Feng Liang Guo"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Skin-Vestige_04.jpg",
+    "alt": "Skin Vestige",
+    "title": "Skin Vestige",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Styling: Camille Franke",
+      "Set: Cathrin Sonntag",
+      "Model: Feng Liang Guo"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Skin-Vestige_05.jpg",
+    "alt": "Skin Vestige",
+    "title": "Skin Vestige",
+    "legend": [
+      "Photo: Denny Sachtleben",
+      "Styling: Camille Franke",
+      "Set: Cathrin Sonntag",
+      "Model: Feng Liang Guo"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Soul_01.jpg",
+    "alt": "Soul",
+    "title": "Soul",
+    "legend": [
+      "Scan: Cathrin Sonntag"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Soul_02.jpg",
+    "alt": "Soul",
+    "title": "Soul",
+    "legend": [
+      "Scan: Cathrin Sonntag"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Soul_03.jpg",
+    "alt": "Soul",
+    "title": "Soul",
+    "legend": [
+      "Scan: Cathrin Sonntag"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
   }
 ]
