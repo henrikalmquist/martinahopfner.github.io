@@ -87,6 +87,7 @@ const index = ref(0)
 const showInfo = ref(false)
 const showLeftInfo = ref(false)
 const isMobile = ref(false)
+const shuffledSlides = ref(shuffleArray(slidesRaw))
 
 function updateIsMobile() {
   isMobile.value = window.matchMedia('(max-width: 1040px)').matches
@@ -102,6 +103,15 @@ function handleKey(e) {
   if (e.key === 'ArrowLeft') {
     // prevSlide()
   }
+}
+
+function shuffleArray(array) {
+  const arr = [...array]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
 }
 
 onMounted(() => {
@@ -131,8 +141,8 @@ function mobileFlag(v) {
 }
 
 const slides = computed(() => {
-  if (!isMobile.value) return slidesRaw
-  return slidesRaw.filter((s) => mobileFlag(s.mobile) === 1)
+  if (!isMobile.value) return shuffledSlides.value
+  return shuffledSlides.value.filter((s) => mobileFlag(s.mobile) === 1)
 })
 
 watch(
@@ -196,8 +206,8 @@ const wrapStyle = computed(() => {
   padding-top: 30px;
   text-align: left;
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 19px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.3;
   color: rgb(0, 0, 0);
 
   position: sticky;
@@ -313,7 +323,7 @@ const wrapStyle = computed(() => {
   padding: 0;
 
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1;
 
   cursor: pointer;
@@ -325,7 +335,7 @@ const wrapStyle = computed(() => {
   width: 240px;
 
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.4;
   color: rgb(0, 0, 0);
 }
@@ -354,7 +364,7 @@ const wrapStyle = computed(() => {
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 22px;
-    font-size: 19px;
+    font-size: 12px;
   }
 
   .left-indent {
@@ -375,7 +385,7 @@ const wrapStyle = computed(() => {
     height: auto;
     transform: none !important;
     display: block;
-    padding: 80px 80px 80px 80px;
+    padding: 80px 40px 80px 40px;
     box-sizing: border-box;
   }
 
@@ -408,11 +418,11 @@ const wrapStyle = computed(() => {
 
   .legend {
     width: 100%;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .plus {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .spacer-lg {
