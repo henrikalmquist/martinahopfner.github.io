@@ -1,45 +1,45 @@
 <template>
   <main class="layout">
-<!-- LEFT / TOP -->
-<div class="left">
-  <!-- name is clickable, keeps its own alignment -->
-  <button
-    class="name-toggle"
-    type="button"
-    @click="toggleLeftInfo"
-    :aria-expanded="showLeftInfo ? 'true' : 'false'"
-  >
-    <p class="name">MARTINA HOPFNER</p>
-  </button>
+    <!-- LEFT / TOP -->
+    <div class="left">
+      <!-- name is clickable, keeps its own alignment -->
+      <button
+        class="name-toggle"
+        type="button"
+        @click="toggleLeftInfo"
+        :aria-expanded="showLeftInfo ? 'true' : 'false'"
+      >
+        <p class="name">MARTINA HOPFNER</p>
+      </button>
 
-  <div class="left-indent">
-    <!-- role is clickable, keeps indent alignment -->
-    <button
-      class="left-toggle"
-      type="button"
-      @click="toggleLeftInfo"
-      :aria-expanded="showLeftInfo ? 'true' : 'false'"
-    >
-      <p class="role"><em>Art Director / Creative Producer</em></p>
-    </button>
+      <div class="left-indent">
+        <!-- role is clickable, keeps indent alignment -->
+        <button
+          class="left-toggle"
+          type="button"
+          @click="toggleLeftInfo"
+          :aria-expanded="showLeftInfo ? 'true' : 'false'"
+        >
+          <p class="role"><em>Art Director / Creative Producer</em></p>
+        </button>
 
-    <div v-if="showLeftInfo" class="left-details">
-      <p class="spacer spacer-lg" aria-hidden="true"></p>
+        <div v-if="showLeftInfo" class="left-details">
+          <p class="spacer spacer-lg" aria-hidden="true"></p>
 
-      <p>Currently based in Germany</p>
+          <p>Currently based in Germany</p>
 
-      <p class="spacer" aria-hidden="true"></p>
+          <p class="spacer" aria-hidden="true"></p>
 
-      <p>+49 152 59165837</p>
-      <p><a href="mailto:mail@martinahopfner.com">mail@martinahopfner.com</a></p>
-      <p>
-        <a href="https://instagram.com/martina.hopfner" target="_blank" rel="noreferrer">
-          Instagram: @martina.hopfner
-        </a>
-      </p>
+          <p>+49 152 59165837</p>
+          <p><a href="mailto:mail@martinahopfner.com">mail@martinahopfner.com</a></p>
+          <p>
+            <a href="https://instagram.com/martina.hopfner" target="_blank" rel="noreferrer">
+              Instagram: @martina.hopfner
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
     <!-- MAIN AREA -->
     <div class="stage" :class="{ hidden: isMobile && showLeftInfo }">
@@ -83,6 +83,8 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import slidesRaw from '../data.json'
 
+const MOBILE_BREAKPOINT = 900
+
 const index = ref(0)
 const showInfo = ref(false)
 const showLeftInfo = ref(false)
@@ -90,7 +92,7 @@ const isMobile = ref(false)
 const shuffledSlides = ref(shuffleArray(slidesRaw))
 
 function updateIsMobile() {
-  isMobile.value = window.matchMedia('(max-width: 1040px)').matches
+  isMobile.value = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches
   if (!isMobile.value) showLeftInfo.value = false
 }
 
@@ -123,10 +125,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener('resize', updateIsMobile)
   window.removeEventListener('keydown', handleKey)
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('resize', updateIsMobile)
 })
 
 function mobileFlag(v) {
@@ -194,7 +192,7 @@ const wrapStyle = computed(() => {
 /* DESKTOP DEFAULT */
 .layout {
   display: grid;
-  grid-template-columns: 360px 1fr;
+  grid-template-columns: 22.5rem 1fr;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -202,12 +200,11 @@ const wrapStyle = computed(() => {
 
 /* LEFT */
 .left {
-  padding-left: 60px;
-  padding-top: 30px;
+  padding-left: 3.75rem;
+  padding-top: 1.875rem;
   text-align: left;
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.3;
+  font-size: 1rem;
   color: rgb(0, 0, 0);
 
   position: sticky;
@@ -225,15 +222,15 @@ const wrapStyle = computed(() => {
 }
 
 .spacer {
-  height: 20px;
+  height: 1.25rem;
 }
 
 .spacer-lg {
-  height: 60px;
+  height: 3.75rem;
 }
 
 .left-indent {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .left-toggle {
@@ -251,21 +248,15 @@ const wrapStyle = computed(() => {
 }
 
 .name-toggle {
-  all: unset;              /* removes default button styles */
+  all: unset;
   cursor: pointer;
-  display: block;          /* keeps layout stable */
+  display: block;
 }
 
 .name-toggle:focus-visible {
-  outline: none;           /* remove blue focus ring */
+  outline: none;
 }
 
-.left-toggle:focus-visible {
-  outline: 1px solid rgb(0, 0, 0);
-  outline-offset: 6px;
-}
-
-/* STAGE */
 .stage {
   position: relative;
   overflow: hidden;
@@ -275,7 +266,6 @@ const wrapStyle = computed(() => {
   display: none;
 }
 
-/* centres the whole image system on desktop */
 .image-wrap {
   position: fixed;
   left: 50%;
@@ -283,60 +273,48 @@ const wrapStyle = computed(() => {
   display: inline-block;
 }
 
-/* box that hugs the image */
 .img-box {
   position: relative;
   display: inline-block;
 }
 
-/* image */
-/* image */
 .image {
   display: block;
-
   width: auto;
   height: auto;
-
-  max-width: min(50vw, 1100px);
+  max-width: min(50vw, calc(100vw - 30rem), 68.75rem);
   max-height: 85vh;
-
   cursor: pointer;
   position: relative;
   z-index: 1;
 }
-/* overlay to the right on desktop, anchored to the image box */
+
 .overlay {
   position: absolute;
-  top: -5px;
+  top: -0.3125rem;
   left: 100%;
-  margin-left: 40px;
-
+  margin-left: 2.5rem;
   z-index: 5;
   text-align: left;
-
-  --plus-gap: 40px;
+  --plus-gap: 2.5rem;
 }
 
 .plus {
   border: 0;
   background: transparent;
   padding: 0;
-
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 0.9375rem;
   line-height: 1;
-
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
 
 .legend {
   margin-top: var(--plus-gap);
-  width: 240px;
-
+  width: 15rem;
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 0.9rem;
   color: rgb(0, 0, 0);
 }
 
@@ -345,11 +323,12 @@ const wrapStyle = computed(() => {
 }
 
 .spacer-sm {
-  height: 12px;
+  height: 0.75rem;
 }
 
-/* MOBILE + IPAD */
-@media (max-width: 1040px) {
+
+/* MOBILE */
+@media (max-width: 900px) {
   .layout {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
@@ -361,14 +340,14 @@ const wrapStyle = computed(() => {
   .left {
     position: relative;
     height: auto;
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top: 22px;
-    font-size: 13px;
+    padding-left: 1.625rem;
+    padding-right: 1.625rem;
+    padding-top: 1.375rem;
+    font-size: 1rem;
   }
 
   .left-indent {
-    margin-left: 18px;
+    margin-left: 1.125rem;
   }
 
   .stage {
@@ -385,7 +364,7 @@ const wrapStyle = computed(() => {
     height: auto;
     transform: none !important;
     display: block;
-    padding: 60px 40px 80px 40px;
+    padding: 3rem 3rem 3rem 3rem;
     box-sizing: border-box;
   }
 
@@ -410,24 +389,24 @@ const wrapStyle = computed(() => {
     left: 0;
     top: 100%;
     margin-left: 0;
-    margin-top: 22px;
+    margin-top: 1.375rem;
     width: 100%;
     text-align: left;
-    --plus-gap: 18px;
+    --plus-gap: 1.125rem;
   }
 
   .legend {
     width: 100%;
-    font-size: 11px;
+    font-size: 0.9rem;
   }
 
   .plus {
-    font-size: 13px;
+    font-size: 1rem;
   }
 
   .spacer-lg {
-    height: 160px;
+    height: 10rem;
   }
-
 }
+
 </style>

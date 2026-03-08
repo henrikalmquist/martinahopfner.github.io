@@ -1,8 +1,8 @@
 [
   {
     "src": "/Fer_01.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -18,8 +18,8 @@
   },
   {
     "src": "/Fer_02.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -35,8 +35,8 @@
   },
   {
     "src": "/Fer_03.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -52,8 +52,8 @@
   },
   {
     "src": "/Fer_04.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -69,8 +69,8 @@
   },
   {
     "src": "/Fer_05.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -86,8 +86,8 @@
   },
   {
     "src": "/Fer_06.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -103,8 +103,8 @@
   },
   {
     "src": "/Fer_07.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -120,25 +120,8 @@
   },
   {
     "src": "/Fer_08.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
-    "legend": [
-      "Photo: Denny Sachtleben",
-      "Hair: Masayuki Yuasa",
-      "Make-up: Lee Hyangsoon",
-      "Styling: Kalle Hildinger",
-      "Model: Fernanda Zilio | Louisa Models"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Fer_09.jpg",
-    "alt": "Fer - A Beauty Story",
-    "title": "Fer - A Beauty Story",
+    "alt": "Fer",
+    "title": "Fer",
     "legend": [
       "Photo: Denny Sachtleben",
       "Hair: Masayuki Yuasa",
@@ -173,8 +156,7 @@
     "title": "Hair Story",
     "legend": [
       "Photo: Denny Sachtleben",
-      "Prop Styling: Cathrin Sonntag",
-      "Model: Henrik Almquist"
+      "Prop Styling: Cathrin Sonntag"
     ],
     "offset": {
       "x": 0,
@@ -203,29 +185,13 @@
     "title": "Hair Story",
     "legend": [
       "Photo: Denny Sachtleben",
-      "Hair Sculpting: Cathrin Sonntag",
-      "Model: Henrik Almquist"
+      "Prop Styling: Cathrin Sonntag"
     ],
     "offset": {
       "x": 0,
       "y": 0
     },
     "mobile": 1
-  },
-  {
-    "src": "/Hair-Story_05.jpg",
-    "alt": "Hair Story",
-    "title": "Hair Story",
-    "legend": [
-      "Photo: Denny Sachtleben",
-      "Prop Styling: Cathrin Sonntag",
-      "Model: Henrik Almquist"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 0
   },
   {
     "src": "/Silhouette-and-backbone_01.jpg",
@@ -365,7 +331,7 @@
       "x": 0,
       "y": 0
     },
-    "mobile": 1
+    "mobile": 0
   },
   {
     "src": "/Silhouette-and-backbone_09.jpg",
@@ -427,133 +393,7 @@
     "title": "Silhouette & Backbone",
     "legend": [
       "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Silhouette-and-backbone_13.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Silhouette-and-backbone_14.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 0
-  },
-  {
-    "src": "/Silhouette-and-backbone_15.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Silhouette-and-backbone_16.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Silhouette-and-backbone_17.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
       "Set: Theresa Rohé"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Silhouette-and-backbone_18.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Silhouette-and-backbone_19.jpg",
-    "alt": "Silhouette & Backbone",
-    "title": "Silhouette & Backbone",
-    "legend": [
-      "Photo: Kornelia Konieczka",
-      "Styling: Rhea Fey",
-      "H+M: Carolin Jarchow",
-      "Set: Theresa Rohé",
-      "Light: Nina Petrova",
-      "Model: Michelle Laff"
     ],
     "offset": {
       "x": 0,
@@ -569,7 +409,7 @@
       "Photo: Denny Sachtleben",
       "Styling: Camille Franke",
       "Set: Cathrin Sonntag",
-      "Model: Feng Liang Guo"
+      "Model: Feng Liang Guo | Mirrrs Models"
     ],
     "offset": {
       "x": 0,
@@ -585,7 +425,7 @@
       "Photo: Denny Sachtleben",
       "Styling: Camille Franke",
       "Set: Cathrin Sonntag",
-      "Model: Feng Liang Guo"
+      "Model: Feng Liang Guo | Mirrrs Models"
     ],
     "offset": {
       "x": 0,
@@ -601,7 +441,7 @@
       "Photo: Denny Sachtleben",
       "Styling: Camille Franke",
       "Set: Cathrin Sonntag",
-      "Model: Feng Liang Guo"
+      "Model: Feng Liang Guo | Mirrrs Models"
     ],
     "offset": {
       "x": 0,
@@ -617,23 +457,7 @@
       "Photo: Denny Sachtleben",
       "Styling: Camille Franke",
       "Set: Cathrin Sonntag",
-      "Model: Feng Liang Guo"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Skin-Vestige_05.jpg",
-    "alt": "Skin Vestige",
-    "title": "Skin Vestige",
-    "legend": [
-      "Photo: Denny Sachtleben",
-      "Styling: Camille Franke",
-      "Set: Cathrin Sonntag",
-      "Model: Feng Liang Guo"
+      "Model: Feng Liang Guo | Mirrrs Models"
     ],
     "offset": {
       "x": 0,
@@ -652,32 +476,6 @@
       "x": 0,
       "y": 0
     },
-    "mobile": 1
-  },
-  {
-    "src": "/Soul_02.jpg",
-    "alt": "Soul",
-    "title": "Soul",
-    "legend": [
-      "Scan: Cathrin Sonntag"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
-  },
-  {
-    "src": "/Soul_03.jpg",
-    "alt": "Soul",
-    "title": "Soul",
-    "legend": [
-      "Scan: Cathrin Sonntag"
-    ],
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "mobile": 1
+    "mobile": 0
   }
 ]
