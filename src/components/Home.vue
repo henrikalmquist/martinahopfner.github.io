@@ -364,7 +364,7 @@ const wrapStyle = computed(() => {
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 22px;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .left-indent {
@@ -385,7 +385,7 @@ const wrapStyle = computed(() => {
     height: auto;
     transform: none !important;
     display: block;
-    padding: 80px 40px 80px 40px;
+    padding: 60px 40px 80px 40px;
     box-sizing: border-box;
   }
 
@@ -418,11 +418,11 @@ const wrapStyle = computed(() => {
 
   .legend {
     width: 100%;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .plus {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .spacer-lg {
