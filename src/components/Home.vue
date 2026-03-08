@@ -83,7 +83,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import slidesRaw from '../data.json'
 
-const MOBILE_BREAKPOINT = 900
+const MOBILE_BREAKPOINT = 1040
 
 const index = ref(0)
 const showInfo = ref(false)
@@ -189,6 +189,10 @@ const wrapStyle = computed(() => {
 </script>
 
 <style scoped>
+:global(html) {
+  font-size: clamp(15px, 0.95rem + 0.15vw, 18px);
+}
+
 /* DESKTOP DEFAULT */
 .layout {
   display: grid;
@@ -210,6 +214,26 @@ const wrapStyle = computed(() => {
   position: sticky;
   top: 0;
   height: 100vh;
+}
+
+.plus {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.legend {
+  margin-top: var(--plus-gap);
+  width: 15rem;
+  font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+  line-height: 1.4;
 }
 
 .left p {
@@ -299,25 +323,6 @@ const wrapStyle = computed(() => {
   --plus-gap: 2.5rem;
 }
 
-.plus {
-  border: 0;
-  background: transparent;
-  padding: 0;
-  font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 0.9375rem;
-  line-height: 1;
-  cursor: pointer;
-  color: rgb(0, 0, 0);
-}
-
-.legend {
-  margin-top: var(--plus-gap);
-  width: 15rem;
-  font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
-  color: rgb(0, 0, 0);
-}
-
 .legend p {
   margin: 0;
 }
@@ -328,7 +333,7 @@ const wrapStyle = computed(() => {
 
 
 /* MOBILE */
-@media (max-width: 900px) {
+@media (max-width: 1040px) {
   .layout {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
@@ -343,7 +348,17 @@ const wrapStyle = computed(() => {
     padding-left: 1.625rem;
     padding-right: 1.625rem;
     padding-top: 1.375rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+
+    .legend {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .plus {
+    font-size: 0.9rem;
   }
 
   .left-indent {
@@ -374,15 +389,15 @@ const wrapStyle = computed(() => {
     width: 100%;
   }
 
-  .image {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    max-height: none;
-    object-fit: contain;
-    margin: 0;
-  }
+.image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: contain;
+  margin: 0;
+}
 
   .overlay {
     position: absolute;
@@ -393,15 +408,6 @@ const wrapStyle = computed(() => {
     width: 100%;
     text-align: left;
     --plus-gap: 1.125rem;
-  }
-
-  .legend {
-    width: 100%;
-    font-size: 0.9rem;
-  }
-
-  .plus {
-    font-size: 1rem;
   }
 
   .spacer-lg {
