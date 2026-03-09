@@ -208,7 +208,7 @@ const wrapStyle = computed(() => {
   padding-top: 1.875rem;
   text-align: left;
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: rgb(0, 0, 0);
 
   position: sticky;
@@ -221,7 +221,7 @@ const wrapStyle = computed(() => {
   background: transparent;
   padding: 0;
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   line-height: 1;
   cursor: pointer;
   color: rgb(0, 0, 0);
@@ -231,7 +231,7 @@ const wrapStyle = computed(() => {
   margin-top: var(--plus-gap);
   width: 15rem;
   font-family: Arial Narrow, Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: rgb(0, 0, 0);
   line-height: 1.4;
 }
