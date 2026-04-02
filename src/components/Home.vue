@@ -26,7 +26,7 @@
         <div v-if="showLeftInfo" class="left-details">
           <p class="spacer spacer-lg" aria-hidden="true"></p>
 
-          <p>Currently based in Germany</p>
+          <p>Based in Europe</p>
 
           <p class="spacer" aria-hidden="true"></p>
 
