@@ -6,7 +6,7 @@ git push
 no need for build/deploy
 
 / preview local
-npm dev
+npm run dev
 
 / excel to data
 npm run gen:data
@@ -15,12 +15,7 @@ npm run gen:data
 
 
 / dev
-- mobile screen
-- big screen (maximum size..)
-- font
-- spaces and sizes
-- click on martina for info
-- content martina
+- done!
 
 /host
 strato
