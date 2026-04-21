@@ -216,6 +216,10 @@ const wrapStyle = computed(() => {
   height: 100vh;
 }
 
+.title {
+  white-space: pre-line;
+}
+
 .plus {
   border: 0;
   background: transparent;

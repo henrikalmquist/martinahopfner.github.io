@@ -1,3 +1,5 @@
+cd ../martinahopfner.github.io
+
 / commit push in terminal
 git add .
 git commit -m "Add GitHub Pages workflow"
@@ -10,6 +12,7 @@ npm run dev
 
 / excel to data
 npm run gen:data
+
 
 
 
