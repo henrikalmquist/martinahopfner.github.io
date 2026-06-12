@@ -137,7 +137,7 @@
   },
   {
     "src": "/Hair-Story_01.jpg",
-    "alt": "Hair Story",
+    "alt": "Hair Story\r\nEditorial for Bound Magazine",
     "title": "Hair Story\r\nEditorial for Bound Magazine",
     "legend": [
       "Photo: Denny Sachtleben",
@@ -152,7 +152,7 @@
   },
   {
     "src": "/Hair-Story_02.jpg",
-    "alt": "Hair Story",
+    "alt": "Hair Story\r\nEditorial for Bound Magazine",
     "title": "Hair Story\r\nEditorial for Bound Magazine",
     "legend": [
       "Photo: Denny Sachtleben",
@@ -166,7 +166,7 @@
   },
   {
     "src": "/Hair-Story_03.jpg",
-    "alt": "Hair Story",
+    "alt": "Hair Story\r\nEditorial for Bound Magazine",
     "title": "Hair Story\r\nEditorial for Bound Magazine",
     "legend": [
       "Photo: Denny Sachtleben",
@@ -181,7 +181,7 @@
   },
   {
     "src": "/Hair-Story_04.jpg",
-    "alt": "Hair Story",
+    "alt": "Hair Story\r\nEditorial for Bound Magazine",
     "title": "Hair Story\r\nEditorial for Bound Magazine",
     "legend": [
       "Photo: Denny Sachtleben",
@@ -195,7 +195,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_01.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -213,7 +213,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_02.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -231,7 +231,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_03.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -245,7 +245,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_04.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -263,7 +263,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_05.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -281,7 +281,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_06.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -299,7 +299,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_07.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -317,7 +317,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_08.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -335,7 +335,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_09.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -353,7 +353,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_10.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -371,7 +371,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_11.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -389,7 +389,7 @@
   },
   {
     "src": "/Silhouette-and-backbone_12.jpg",
-    "alt": "Silhouette & Backbone",
+    "alt": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "title": "Silhouette & Backbone\r\nEditorial for VOGUE Portugal",
     "legend": [
       "Photo: Kornelia Konieczka",
@@ -479,9 +479,9 @@
     "mobile": 0
   },
   {
-    "src": "/Nymph_01",
-    "alt": "Nymph",
-    "title": "Nymph",
+    "src": "/Nymph_01.jpg",
+    "alt": "Nymph\r\nEditorial for Blumenhaus Magazine",
+    "title": "Nymph\r\nEditorial for Blumenhaus Magazine",
     "legend": [
       "Photo: Marry Rozzi",
       "Styling: Sara Medali",
@@ -497,9 +497,9 @@
     "mobile": 1
   },
   {
-    "src": "/Nymph_02",
-    "alt": "Nymph",
-    "title": "Nymph",
+    "src": "/Nymph_02.jpg",
+    "alt": "Nymph\r\nEditorial for Blumenhaus Magazine",
+    "title": "Nymph\r\nEditorial for Blumenhaus Magazine",
     "legend": [
       "Photo: Marry Rozzi",
       "Styling: Sara Medali",
@@ -512,9 +512,9 @@
     "mobile": 0
   },
   {
-    "src": "/Nymph_03",
-    "alt": "Nymph",
-    "title": "Nymph",
+    "src": "/Nymph_03.jpg",
+    "alt": "Nymph\r\nEditorial for Blumenhaus Magazine",
+    "title": "Nymph\r\nEditorial for Blumenhaus Magazine",
     "legend": [
       "Photo: Marry Rozzi",
       "Styling: Sara Medali",
@@ -530,9 +530,9 @@
     "mobile": 1
   },
   {
-    "src": "/Nymph_04",
-    "alt": "Nymph",
-    "title": "Nymph",
+    "src": "/Nymph_04.jpg",
+    "alt": "Nymph\r\nEditorial for Blumenhaus Magazine",
+    "title": "Nymph\r\nEditorial for Blumenhaus Magazine",
     "legend": [
       "Photo: Marry Rozzi",
       "Set: Raphaëlle Daguerre"
