@@ -1,8 +1,11 @@
 cd ../martinahopfner.github.io
 
+/ excel to data
+npm run gen:data
+
 / commit push in terminal
 git add .
-git commit -m "Add GitHub Pages workflow"
+git commit -m "Fix HA"
 git push
 
 no need for build/deploy
@@ -10,8 +13,7 @@ no need for build/deploy
 / preview local
 npm run dev
 
-/ excel to data
-npm run gen:data
+
 
 
 

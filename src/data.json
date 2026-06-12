@@ -477,5 +477,70 @@
       "y": 0
     },
     "mobile": 0
+  },
+  {
+    "src": "/Nymph_01",
+    "alt": "Nymph",
+    "title": "Nymph",
+    "legend": [
+      "Photo: Marry Rozzi",
+      "Styling: Sara Medali",
+      "Hair: Yui Ozaki",
+      "Makeup: Kana Ohira",
+      "Set: Raphaëlle Daguerre",
+      "Model: Lena Ballayre | New Wave Management"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Nymph_02",
+    "alt": "Nymph",
+    "title": "Nymph",
+    "legend": [
+      "Photo: Marry Rozzi",
+      "Styling: Sara Medali",
+      "Set: Raphaëlle Daguerre"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 0
+  },
+  {
+    "src": "/Nymph_03",
+    "alt": "Nymph",
+    "title": "Nymph",
+    "legend": [
+      "Photo: Marry Rozzi",
+      "Styling: Sara Medali",
+      "Hair: Yui Ozaki",
+      "Makeup: Kana Ohira",
+      "Set: Raphaëlle Daguerre",
+      "Model: Lena Ballayre | New Wave Management"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
+  },
+  {
+    "src": "/Nymph_04",
+    "alt": "Nymph",
+    "title": "Nymph",
+    "legend": [
+      "Photo: Marry Rozzi",
+      "Set: Raphaëlle Daguerre"
+    ],
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mobile": 1
   }
 ]
